@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EE90647C1F17994100D0AEA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90647B1F17994100D0AEA2 /* AppDelegate.swift */; };
-		EE90647E1F17994100D0AEA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90647D1F17994100D0AEA2 /* ViewController.swift */; };
 		EE9064811F17994100D0AEA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE90647F1F17994100D0AEA2 /* Main.storyboard */; };
 		EE9064831F17994100D0AEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9064821F17994100D0AEA2 /* Assets.xcassets */; };
 		EE9064861F17994100D0AEA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9064841F17994100D0AEA2 /* LaunchScreen.storyboard */; };
 		EE9064911F17994100D0AEA2 /* SDK_Tester_QA1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9064901F17994100D0AEA2 /* SDK_Tester_QA1Tests.swift */; };
 		EE90649C1F17994100D0AEA2 /* SDK_Tester_QA1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE90649B1F17994100D0AEA2 /* SDK_Tester_QA1UITests.swift */; };
+		EE9064B01F17A03400D0AEA2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9064AF1F17A03400D0AEA2 /* WebKit.framework */; };
+		EE9064B81F17D7EA00D0AEA2 /* libJB4ASDK-4.9.5.20900000.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9064B71F17D7EA00D0AEA2 /* libJB4ASDK-4.9.5.20900000.a */; };
+		EE9064BA1F17DB6C00D0AEA2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9064B91F17DB6C00D0AEA2 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		EE9064781F17994100D0AEA2 /* SDK Tester QA1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK Tester QA1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE90647B1F17994100D0AEA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE90647D1F17994100D0AEA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE9064801F17994100D0AEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE9064821F17994100D0AEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE9064851F17994100D0AEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +49,11 @@
 		EE90649B1F17994100D0AEA2 /* SDK_Tester_QA1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDK_Tester_QA1UITests.swift; sourceTree = "<group>"; };
 		EE90649D1F17994100D0AEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE9064A91F17995E00D0AEA2 /* SDK Tester QA1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SDK Tester QA1.entitlements"; sourceTree = "<group>"; };
+		EE9064AD1F179F6000D0AEA2 /* libJB4ASDK-4.9.0.20800000.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libJB4ASDK-4.9.0.20800000.a"; path = "JB4A-SDK/libJB4ASDK-4.9.0.20800000.a"; sourceTree = "<group>"; };
+		EE9064AF1F17A03400D0AEA2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		EE9064B51F17ACC400D0AEA2 /* JB4A-SDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "JB4A-SDK"; sourceTree = "<group>"; };
+		EE9064B71F17D7EA00D0AEA2 /* libJB4ASDK-4.9.5.20900000.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libJB4ASDK-4.9.5.20900000.a"; path = "JB4A-SDK/libJB4ASDK-4.9.5.20900000.a"; sourceTree = "<group>"; };
+		EE9064B91F17DB6C00D0AEA2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9064B81F17D7EA00D0AEA2 /* libJB4ASDK-4.9.5.20900000.a in Frameworks */,
+				EE9064B01F17A03400D0AEA2 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,10 +86,12 @@
 		EE90646F1F17994100D0AEA2 = {
 			isa = PBXGroup;
 			children = (
+				EE9064B51F17ACC400D0AEA2 /* JB4A-SDK */,
 				EE90647A1F17994100D0AEA2 /* SDK Tester QA1 */,
 				EE90648F1F17994100D0AEA2 /* SDK Tester QA1Tests */,
 				EE90649A1F17994100D0AEA2 /* SDK Tester QA1UITests */,
 				EE9064791F17994100D0AEA2 /* Products */,
+				EE9064AC1F179F5E00D0AEA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +110,11 @@
 			children = (
 				EE9064A91F17995E00D0AEA2 /* SDK Tester QA1.entitlements */,
 				EE90647B1F17994100D0AEA2 /* AppDelegate.swift */,
-				EE90647D1F17994100D0AEA2 /* ViewController.swift */,
 				EE90647F1F17994100D0AEA2 /* Main.storyboard */,
 				EE9064821F17994100D0AEA2 /* Assets.xcassets */,
 				EE9064841F17994100D0AEA2 /* LaunchScreen.storyboard */,
 				EE9064871F17994100D0AEA2 /* Info.plist */,
+				EE9064B91F17DB6C00D0AEA2 /* TableViewController.swift */,
 			);
 			path = "SDK Tester QA1";
 			sourceTree = "<group>";
@@ -125,6 +135,16 @@
 				EE90649D1F17994100D0AEA2 /* Info.plist */,
 			);
 			path = "SDK Tester QA1UITests";
+			sourceTree = "<group>";
+		};
+		EE9064AC1F179F5E00D0AEA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9064B71F17D7EA00D0AEA2 /* libJB4ASDK-4.9.5.20900000.a */,
+				EE9064AF1F17A03400D0AEA2 /* WebKit.framework */,
+				EE9064AD1F179F6000D0AEA2 /* libJB4ASDK-4.9.0.20800000.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE90647E1F17994100D0AEA2 /* ViewController.swift in Sources */,
 				EE90647C1F17994100D0AEA2 /* AppDelegate.swift in Sources */,
+				EE9064BA1F17DB6C00D0AEA2 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,8 +446,14 @@
 				DEVELOPMENT_TEAM = 54D6L93E3U;
 				INFOPLIST_FILE = "SDK Tester QA1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JB4A-SDK",
+				);
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.littleapps.SDK-Tester-QA1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/JB4A-SDK/JB4ASDK-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -440,8 +466,14 @@
 				DEVELOPMENT_TEAM = 54D6L93E3U;
 				INFOPLIST_FILE = "SDK Tester QA1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JB4A-SDK",
+				);
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.littleapps.SDK-Tester-QA1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/JB4A-SDK/JB4ASDK-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -523,6 +555,7 @@
 				EE9064A21F17994100D0AEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE9064A31F17994100D0AEA2 /* Build configuration list for PBXNativeTarget "SDK Tester QA1Tests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +564,7 @@
 				EE9064A51F17994100D0AEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE9064A61F17994100D0AEA2 /* Build configuration list for PBXNativeTarget "SDK Tester QA1UITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +573,7 @@
 				EE9064A81F17994100D0AEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
